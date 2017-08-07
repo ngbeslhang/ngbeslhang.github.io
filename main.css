@@ -29,22 +29,13 @@ h2 {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    align-items: center;    
-}
-
-@media (min-width: 320px) {
-    .container {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        margin: 0 10%;
-    }
-
-    h1 {
-        font-size: 400%;
-        font-family: 'Unica One', sans-serif;
-    }
+    align-items: center;
+    
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 10%;
 }
 
 @media (min-width: 961px) {
@@ -84,17 +75,14 @@ h2 {
     text-decoration: none;
 }
 
-@media (min-width: 320px) {
-	
-    .header { 
-        padding: 0;
-        margin-bottom: -45px;
-    }
+.header { 
+    padding: 0;
+    margin-bottom: -45px;
+}
 
-    .sidebar {
-        padding: 0;
-        border: none;
-    }
+.sidebar {
+    padding: 0;
+    border: none;
 }
 
 @media (min-width: 961px)

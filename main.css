@@ -4,7 +4,7 @@ a { color: #000000; }
 p { font-size: 125%; }
 
 html, body { 
-    font-family: Inconsolata, 'Microsoft YaHei', 'SimHei', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Noto Sans CJK TC' ,monospace;
+    font-family: Inconsolata, 'Microsoft YaHei', 'SimHei', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Noto Sans CJK TC', monospace;
     height:100%;
     text-align: center;
 }
@@ -100,7 +100,7 @@ h2 {
 }
 
 /* COLORS */
-.blue { color: #2e85e8; }
+.blue { color: #609dff; }
 .lime { color: #a1dd46; }
 .yellow { color: #efe358; }	
 .purple { color: #aaa6ed; }

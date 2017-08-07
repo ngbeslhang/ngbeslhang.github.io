@@ -1,0 +1,116 @@
+/* GENERAL */
+a { color: #000000; }
+
+p { font-size: 125%; }
+
+html, body { 
+    font-family: Inconsolata, 'Microsoft YaHei', 'SimHei', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Noto Sans CJK TC' ,monospace;
+    height:100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 500%;
+    font-family: 'Unica One', sans-serif;
+}
+
+h2 {
+    font-size: 350%;
+    font-family: 'Unica One', sans-serif;
+}
+
+/* https://stackoverflow.com/questions/9251354/css-customized-scroll-bar-in-div/14150577#14150577 */
+
+.underline {
+    text-decoration: underline;
+}
+
+.container {
+    display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    align-items: center;
+    
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 0 5%;
+}
+
+@media all and (max-width: 965px) {
+    .container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin: 0 10%;
+    }
+}
+
+/* HEADER */
+#home {
+    background-color: #292B37;
+    color: #e8e8e8;
+    height: 100%;
+    display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+    
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#home a { 
+    color: #e8e8e8;
+    text-decoration: none;
+}
+
+.header { 
+    padding-right: 20px;
+}
+
+.sidebar {
+    text-align: left;
+    padding-left: 20px;
+    border-left: solid #e8e8e8 2px;
+}
+
+.menu {
+    text-align: center;
+}
+
+@media all and (max-width: 965px) {
+    .header { 
+        padding: 0;
+        margin-bottom: -45px;
+    }
+    .sidebar {
+        padding: 0;
+        border: none;
+    }
+}
+
+/* CONTENTS */
+
+.content {
+    padding: 10px;
+}
+
+/* COLORS */
+.blue { color: #2e85e8; }
+.lime { color: #a1dd46; }
+.yellow { color: #efe358; }
+.purple { color: #aaa6ed; }
+.orange { color: #D28D5D; }
+.red { color: #DC3A3B; }
+.rotomblue { color: #5ba8ff; }

@@ -1,0 +1,68 @@
+/* CSS from Google Font */
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v4/hMqPNLsu_dywMa4C_DEpYyYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v4/hMqPNLsu_dywMa4C_DEpY44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+    font-family: "Roboto Mono", "Microsoft Yahei", "微软雅黑", monospace;
+    background-color: #292B37;
+    color: #E5E5E5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+h1 {
+    font-size: 250%;
+    margin-bottom: 0px;
+}
+
+a { color: #E5E5E5; }
+
+.desc {
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    width: 80%;
+}
+
+.footer { 
+    font-size: 75%;
+    text-align: center;
+    line-height: 125%;
+}
+
+.blue { color: #0C8483; }
+.green { color: #93C56E; }
+.yellow { color: #E2D86A; }
+.purple { color: #8783BD; }
+.orange { color: #D28D5D; }
+.red { color: #DC3A3B; }
+.pink { color: #B53A93; }
+.grey { color: grey; }

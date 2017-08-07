@@ -38,7 +38,7 @@ h2 {
     margin: 0 5%;
 }
 
-@media screen and (max-width: 965px) {
+@media (min-width: 600px) {
     .container {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -89,7 +89,7 @@ h2 {
     text-align: center;
 }
 
-@media screen and (max-width: 965px) {
+@media (min-width: 600px) {
     .header { 
         padding: 0;
         margin-bottom: -45px;

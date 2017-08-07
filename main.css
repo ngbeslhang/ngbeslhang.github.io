@@ -32,13 +32,18 @@ h2 {
     align-items: center;    
 }
 
-@media (min-width: 641px) {
+@media (max-width: 641px) {
     .container {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
         margin: 0 10%;
+    }
+
+    h1 {
+        font-size: 400%;
+        font-family: 'Unica One', sans-serif;
     }
 }
 

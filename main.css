@@ -33,7 +33,7 @@ h2 {
     margin: 0 10%;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 320px) {
 	.container {
     	display: flex;
     	align-items: center;
@@ -65,7 +65,7 @@ h2 {
     text-decoration: none;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 320px) {
 	.header { 
     	padding: 0;
     	margin-bottom: -45px;

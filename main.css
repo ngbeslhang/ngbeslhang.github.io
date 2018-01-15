@@ -10,7 +10,6 @@ html, body {
 }
 
 h1 {
-    font-size: 500%;
     font-family: 'Unica One', sans-serif;
 }
 
@@ -99,6 +98,7 @@ h2 {
     #announcements div h3 {
         font-size: 100%;
     }
+    h1 { font-size: 450% }
 }
 
 @media (min-width: 961px)
@@ -118,6 +118,7 @@ h2 {
     #announcements div h3 {
         font-size: 110%;
     }
+    h1 { font-size: 500% }
 }
 
 .menu {

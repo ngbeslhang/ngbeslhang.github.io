@@ -75,9 +75,13 @@ h2 {
     line-height: 25px;
 }
 
+#announcements .fa {
+    padding: 0 3px 0 0;
+}
+
 #announcements h3 {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 3px;
 }
 
 @media (min-width: 320px) {
@@ -110,9 +114,6 @@ h2 {
     }
     #announcements {
         margin: 5%;
-    }
-    #announcements div {
-        padding: 5px 15px;
     }
     #announcements div h3 {
         font-size: 110%;

@@ -175,7 +175,7 @@ h2 {
     
     /* Shadow to make the content pop out as if it's a piece of paper on top of a surface */
     box-shadow: 0 0 60px 20px black;
-    margin: 15px -50px;
+    margin: 0px -50px;
 }
 
 /* FOOTER */

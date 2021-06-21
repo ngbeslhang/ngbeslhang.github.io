@@ -32,7 +32,8 @@ h2 {
         align-items: center;
     
     	flex-direction: column;
-    	margin: 0 10%;
+    	/* margin: 0 10%; */
+	margin: 0;
     }
 }
 
@@ -40,6 +41,7 @@ h2 {
     .container .main {
         flex-direction: row;
         /* margin: 0 5%; */
+	margin: 0;
     }
 }
 

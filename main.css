@@ -39,7 +39,7 @@ h2 {
 @media (min-width: 961px) {
     .container .main {
         flex-direction: row;
-        margin: 0 5%;
+        /* margin: 0 5%; */
     }
 }
 
@@ -48,7 +48,7 @@ h2 {
     background-color: #292B37;
     color: #e8e8e8;
     height: 100%;
-	display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }

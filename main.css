@@ -78,7 +78,7 @@ h2 {
 
 .row { flex-direction: row; }
 
-@media (min-width: 320px) {
+@media (max-width: 961px) {
     .container .main {
         align-items: center;
     

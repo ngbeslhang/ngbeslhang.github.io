@@ -80,7 +80,7 @@ h2 {
 @media (min-width: 320px) {
     .header { 
     	padding: 0;
-    	/* margin-bottom: -45px; */
+    	margin-bottom: -45px;
     }
 	
     .sidebar {

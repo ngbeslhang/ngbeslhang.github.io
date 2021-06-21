@@ -82,15 +82,13 @@ h2 {
     .container .main {
         align-items: center;
     	flex-direction: column;
-        margin: 0 10%;
     }
+    .container { margin: 0 10%; }
 }
 
 @media (min-width: 961px) {
-    .container .main {
-        flex-direction: row;
-        margin: 0 5%;
-    }
+    .container .main { flex-direction: row; }
+    .container { margin: 0 5%; }
 }
 
 /* HEADER */

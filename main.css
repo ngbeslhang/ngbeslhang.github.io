@@ -57,6 +57,7 @@ html, body {
     font-family: 'Anonymous Pro', 'Microsoft YaHei', 'SimHei', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Noto Sans CJK TC', monospace;
     height: 100%;
     text-align: center;
+    overflow-x: hidden;
 }
 
 h1 { font-family: 'Ostrich Sans', sans-serif; }
@@ -176,7 +177,6 @@ h2 {
     box-shadow: 0 0 60px 20px black;
     margin-left: -50px;
     margin-right: -50px;
-    overflow-x: hidden;
 }
 
 /* COLORS */

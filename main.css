@@ -192,6 +192,11 @@ h2 {
     align-items: center;
 }
 
+#footer a { 
+    color: #e8e8e8;
+    text-decoration: none;
+}
+
 /* COLORS */
 .blue { color: #609dff; }
 .lime { color: #a1dd46; }

@@ -9,9 +9,7 @@ html, body {
     text-align: center;
 }
 
-h1 {
-    font-family: 'Unica One', sans-serif;
-}
+h1 { font-family: 'Unica One', sans-serif; }
 
 h2 {
     font-size: 350%;
@@ -20,26 +18,22 @@ h2 {
 
 /* https://stackoverflow.com/questions/9251354/css-customized-scroll-bar-in-div/14150577#14150577 */
 
-.underline {
-    text-decoration: underline;
-}
+.underline { text-decoration: underline; }
 
 .container {
     display: flex;
     flex-direction: column;
 }
 
-.row {
-    flex-direction: row;
-}
+.row { flex-direction: row; }
 
 @media (min-width: 320px) {
-	.container .main {
-    	align-items: center;
+    .container .main {
+        align-items: center;
     
     	flex-direction: column;
     	margin: 0 10%;
-	}
+    }
 }
 
 @media (min-width: 961px) {
@@ -74,9 +68,7 @@ h2 {
     line-height: 25px;
 }
 
-#announcements .fa {
-    padding: 0 3px 0 0;
-}
+#announcements .fa { padding: 0 3px 0 0; }
 
 #announcements h3 {
     margin: 0;
@@ -84,52 +76,44 @@ h2 {
 }
 
 @media (min-width: 320px) {
-	.header { 
+    .header { 
     	padding: 0;
-    	margin-bottom: -45px;
-	}
-	.sidebar {
+    	/* margin-bottom: -45px; */
+    }
+	
+    .sidebar {
     	padding: 0;
     	border: none;
-	}
-    #announcements {
-        margin: 1% 7%;
     }
-    #announcements div h3 {
-        font-size: 100%;
-    }
+	
+    #announcements { margin: 1% 7%; }
+	
+    #announcements div h3 { font-size: 100%; }
+	
     h1 { font-size: 450% }
 }
 
-@media (min-width: 961px)
-{
-    .header { 
-        padding-right: 20px;
-    }
+@media (min-width: 961px) {
+    .header { padding-right: 20px; }
 
     .sidebar {
         text-align: left;
         padding-left: 20px;
         border-left: solid #e8e8e8 2px;
     }
-    #announcements {
-        margin: 5%;
-    }
-    #announcements div h3 {
-        font-size: 110%;
-    }
+	
+    #announcements { margin: 5%; }
+	
+    #announcements div h3 { font-size: 110%; }
+	
     h1 { font-size: 500% }
 }
 
-.menu {
-    text-align: center;
-}
+.menu { text-align: center; }
 
 /* CONTENTS */
 
-.content {
-    padding: 10px;
-}
+.content { padding: 10px; }
 
 /* COLORS */
 .blue { color: #609dff; }

@@ -1,4 +1,4 @@
-# ngbeslhang.github.io / ngb.pw (formerly ngb.li)
+# ngbeslhang.github.io / ngb.my (formerly ngb.li/ngb.pw)
 Since FreeCodeCamp wants me to build my own portfolio I decided to redesign it to make it actually looks better. The old design is located at /old folder.
 
 ## Pre-redesign README.md
